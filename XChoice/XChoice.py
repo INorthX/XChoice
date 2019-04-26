@@ -146,11 +146,11 @@ def ScanMenu():
 def DOSMenu():
     dostools = GREEN + """
     
-1)Hulk 
-2)Xerxes 
-3)Slowloris     
-4)LOIC (for linux) 
-99)Return to main menu      """
+1)Hulk\n 
+2)Xerxes\n 
+3)Slowloris\n     
+4)LOIC (for linux)\n 
+99)Return to main menu\n      """
     print(dostools)
     dosnswer = int(input("Enter an option : "))
     if dosnswer == 1:
@@ -170,10 +170,10 @@ def DOSMenu():
 def Passmenu():
     passmenu = WHITE + """
     
-1)Medusa
-2)SocialBox 
-3)Crunch (WordList generator)     
-99)Return to main menu  
+1)Medusa\n
+2)SocialBox\n 
+3)Crunch (WordList generator)\n     
+99)Return to main menu\n  
      """
     print(passmenu)
     passanswer = int(input("Enter a choice : "))
